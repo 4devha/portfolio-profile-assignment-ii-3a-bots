@@ -1,0 +1,115 @@
+html {
+    font: 16px Arial, Helvetica, sans-serif;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+/* Head section(hr,Name,Nav) */
+.first-Hr {
+    border: 3px solid #000000;
+    margin: 0 0 20px 0;
+}
+
+.name {
+    text-align: center;
+    font: italic bold 25px Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    overflow: hidden;
+}
+
+.nav a {
+    float: left;
+    text-decoration: none;
+    padding-right: 50px;
+    font: bold 12px Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #7e7d7d;    
+}
+
+.nav a:hover {
+    color: #ff0000;
+}
+
+.second-Hr {
+    border: 1px solid #000000;
+    margin-top: 0;
+  }
+
+
+
+/* Content 1:(2nd-Name, Description, Profile-Picture)*/
+.bg-Image {
+    background-color: #ffffff;
+}
+
+.second-Header {
+    text-align: left;
+    color: #131d99;
+}
+
+.description {
+    text-align: justify;
+    color: #7e7d7d;
+    font: bold 16px/1.4 Arial, Helvetica, sans-serif;
+}
+
+.profile-picture {
+    height: 100%;
+    width: 50%;
+    border-radius: 50%;
+}
+
+
+
+/* Section:(Header) */
+.third-Header {
+    text-align: center;
+    color: #636363;
+}
+
+
+
+
+/* Content 2:(images and links) */
+.images {
+    text-align: center;
+    padding-right: 0;
+    margin: 0;
+}
+
+
+
+/* Footer() */
+.top-buffer {
+     margin-top: 40px;
+}
+
+.copy-Right {
+    color: #ffffff;
+    border-color: #ffffff;
+    width: 100%;
+}
+
+.foot {
+    background-color: #272222;
+}
